@@ -24,4 +24,4 @@ spl_autoload_register(
     true,
     false
 );
-require '../vendor/autoload.php';
+require __DIR__.'/../vendor/autoload.php';

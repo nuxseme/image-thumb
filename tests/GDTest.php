@@ -6,8 +6,9 @@ namespace image\tests;
 
 use image\Thumb;
 use image\thumb\GD;
+use PHPUnit\Framework\TestCase;
 
-class GDTest extends \PHPUnit_Framework_TestCase
+class GDTest extends TestCase
 {
     public function testResize()
     {

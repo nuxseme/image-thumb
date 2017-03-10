@@ -28,10 +28,10 @@ composer.phar
 # phpunit itself is not needed
 phpunit.phar
 # local phpunit config
-/phpunit.xml
 
 # vagrant runtime
 /.vagrant
 
 /vendor/
 /resource/target/
+/tests/php_errors.log

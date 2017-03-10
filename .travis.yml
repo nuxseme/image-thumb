@@ -1,0 +1,18 @@
+language: php
+php:
+  - '7.1'
+
+notifications:
+  email:
+    - nuxseme@gmail.com
+  on_success: always
+  on_failure: always
+
+script:
+  - composer -v
+  - composer install
+  - phpunit -v
+
+branches:
+  only:
+    - master
