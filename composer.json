@@ -1,0 +1,22 @@
+{
+    "name": "nuxseme/image-thumb",
+    "description": "image-thumb",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "He Ya Dong",
+            "email": "nuxseme@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "phpunit/phpunit": "^6.0",
+        "masterexploder/phpthumb": ">2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "image\\":"src/"
+        }
+    }
+}
